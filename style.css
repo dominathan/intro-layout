@@ -1,0 +1,66 @@
+header, footer {
+  width: 100%;
+  background-color: orange;
+}
+
+nav ul {
+  padding: 50px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: white;
+  color: orange;
+}
+
+section, aside {
+  display: inline-block;
+}
+
+aside {
+  width: 14%;
+}
+
+section {
+  width: 70%;
+}
+
+.murray-img {
+  width: 48%;
+  margin: 0;
+  display: inline;
+}
+
+.murray-img img {
+  width: 400px;
+  height: auto;
+}
+
+.first-img {
+  width: 90%;
+}
+
+.first-img img {
+  width: 50px;
+}
+
+.nick-img {
+  width: 90%;
+}
+
+.nick-img img {
+  width: 50px;
+}
+
+.murray-aside {
+  position: relative;
+  top: -100px;
+}
